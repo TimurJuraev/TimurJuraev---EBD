@@ -1,5 +1,5 @@
-import { createClient } from "npm:@supabase/supabase-js@2.39.8";
-import { SmtpClient } from "npm:@emailjs/smtp-client@1.0.2";
+import { createClient } from "@supabase/supabase-js@2.39.8";
+import { SmtpClient } from "@emailjs/smtp-client@1.0.2";
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
